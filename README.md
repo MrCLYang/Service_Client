@@ -13,6 +13,7 @@
           (1)在项目创建后,将客户端的AIDL的整个文件连带包名不变拷贝到(src/main)下,然后Make Project,生成AIDL的接口文件
           
           (2)在主要界面进行Activity和Server的联系,创建ServiceConnection的匿名类,以及重写onServiceConnected()
+		  test 詹波
           
 
     重点:绑定服务的时候,采用隐式启动服务,参数与服务器端的action要一致,即"服务器包名.aidl接口文件名"  
